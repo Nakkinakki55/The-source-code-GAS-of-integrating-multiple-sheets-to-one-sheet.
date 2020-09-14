@@ -1,8 +1,10 @@
 function copyPaste() {
 	//シート指定
 	var spreadsheet = SpreadsheetApp.getActive();
-//↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓change↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-//1つに統合したいシート名を指定する(シート名が違えば名前を変更する必要あり)
+
+	//↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓change↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+	//1つに統合したいシート名を指定する(シート名が違えば名前を変更する必要あり)
 
 	spreadsheet.setActiveSheet(spreadsheet.getSheetByName('DataForIntegrating'), true);
 	//↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓change↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
